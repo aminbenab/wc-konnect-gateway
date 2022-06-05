@@ -1,0 +1,5 @@
+svn ci -m 'Added purchase details in transaction'
+
+svn ci -m "tagging version 2.3"
+
+svn cp trunk tags/2.3
