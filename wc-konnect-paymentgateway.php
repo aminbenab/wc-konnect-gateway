@@ -263,6 +263,7 @@ function init_wc_konnect_gateway()
                 'acceptedPaymentMethods' => $payment_methods,
                 'type' => "immediate",
                 'message' => $products,
+                'channel' => 'Wordpress',
             );
 
             $args = array(
